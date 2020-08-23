@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">Trivia Dev</string>
+    <string name="app_name">Dev Trivia</string>
     <string name="play">Jugar</string>
     <string name="desc_logo_image">Logo de la APP</string>
+    <string name="home_dev_trivia_question">Dev Trivia (%1$d/%2$d)</string>
+    <string name="question_text">¿Qué es un algoritmo?</string>
+    <string name="submit_button">Enviar</string>
+    <string name="answer_default">Un conjunto de pasos para abordar la solución</string>
+    <string name="try_again">Intentar Nuevamente</string>
+    <string name="next_match">Nueva Partida</string>
 </resources>

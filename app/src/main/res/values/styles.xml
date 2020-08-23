@@ -10,9 +10,18 @@
     <!-- Button Styles -->
     <style name="AppButtonPrimary" parent="Widget.AppCompat.Button.Colored">
         <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
         <item name="colorControlHighlight">@color/selected_color_button</item>
         <item name="android:textColor">@color/white_text_color</item>
         <item name="colorAccent">@color/selected_color_button</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="QuestionGame">
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:typeface">normal</item>
     </style>
 
 </resources>

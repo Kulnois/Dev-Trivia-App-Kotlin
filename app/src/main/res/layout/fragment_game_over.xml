@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.kulnois.triviadev.ui.fragment.HomeFragment"
-    >
+    tools:context="com.kulnois.triviadev.ui.fragment.GameOverFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/homeConstraint"
+        android:id="@+id/gameOverLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/background_color">
+        android:layout_height="match_parent">
+
 
         <ImageView
-            android:id="@+id/logoImage"
+            android:id="@+id/gameOverImage"
             android:layout_width="0dp"
             android:layout_height="@dimen/logo_app_home_height"
             android:layout_marginStart="@dimen/layout_margin_content"
@@ -22,20 +20,22 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/trivia_logo"
-            android:contentDescription="@string/desc_logo_image" />
+            app:srcCompat="@drawable/game_over" />
 
         <Button
-            android:id="@+id/playButton"
+            android:id="@+id/tryAgainButton"
+            style="@style/AppButtonPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/layout_margin_content"
+            android:layout_marginTop="@dimen/layout_margin_content"
             android:layout_marginEnd="@dimen/layout_margin_content"
-            android:text="@string/play"
-            android:theme="@style/AppButtonPrimary"
+            android:layout_marginBottom="@dimen/layout_margin_content"
+            android:text="@string/try_again"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/logoImage" />
+            app:layout_constraintTop_toBottomOf="@+id/gameOverImage" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </layout>
