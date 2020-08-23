@@ -7,4 +7,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Button Styles -->
+    <style name="AppButtonPrimary" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/selected_color_button</item>
+        <item name="android:textColor">@color/white_text_color</item>
+        <item name="colorAccent">@color/selected_color_button</item>
+    </style>
+
 </resources>

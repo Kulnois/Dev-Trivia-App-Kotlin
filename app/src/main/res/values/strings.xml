@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Trivia Dev</string>
+    <string name="play">Jugar</string>
+    <string name="desc_logo_image">Logo de la APP</string>
 </resources>
