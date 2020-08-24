@@ -2,8 +2,8 @@
 
 ![Dev Trivia Gif](screenshots/dev_trivia.gif)
 
-Mi primer proyecto de Android con Kotlin donde implemento algunas librerías de ![Android Jetpack](https://developer.android.com/jetpack) 
-como ![Navigation](https://developer.android.com/jetpack/androidx/releases/navigation) y ![Databinding](https://developer.android.com/jetpack/androidx/releases/databinding); 
+Mi primer proyecto de Android con Kotlin donde implemento algunas librerías de [Android Jetpack](https://developer.android.com/jetpack) 
+como [Navigation](https://developer.android.com/jetpack/androidx/releases/navigation) y [Databinding](https://developer.android.com/jetpack/androidx/releases/databinding); 
 para la creación de una aplicación sencilla que hace preguntas sobre desarrollo de software en general.
 
 ## Como Implementar las librerías mencionadas de Android Jetpack
@@ -74,7 +74,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
     }
 }
 ```
-Para mas información visitar la ![Guía](https://developer.android.com/topic/libraries/data-binding)
+Para mas información visitar la [Guía](https://developer.android.com/topic/libraries/data-binding)
 
 ### Navigation
 
@@ -101,7 +101,7 @@ dependencies {
 Una vez agregado la librería crear un archivo en `res` de tipo `Navigation` en el cual se puede empezar a crear su gráfico de navegación para la Aplicación.
 ![Navigation](screenshots/navigation.PNG)
 
-Para mas información visitar la ![Guía](https://developer.android.com/guide/navigation)
+Para mas información visitar la [Guía](https://developer.android.com/guide/navigation)
 
 [App Release Dev Trivia APK](release/app-dev-trivia.apk)
 
