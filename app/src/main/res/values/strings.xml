@@ -8,4 +8,10 @@
     <string name="answer_default">Un conjunto de pasos para abordar la solución</string>
     <string name="try_again">Intentar Nuevamente</string>
     <string name="next_match">Nueva Partida</string>
+    <string name="about_text">Dev Trivia es una App donde aplico mis conocimientos sobre android con kotlin en la cual implemento algunas librerías de Android Jetpack como son Navigation y Databinding.\n\nPara la creación de una aplicación sencilla que hace preguntas sobre desarrollo de software en general.</string>
+    <string name="rules_text">Seleccione la respuesta de las opciones dadas. Cada vez que obtiene una respuesta correcta, avanza a la siguiente pregunta..\n\nSi obtiene una respuesta incorrecta, ¡la partida termina! Puedes volver a la pantalla de título usando up o back desde la pantalla del juego, y esto también terminará tu partida.</string>
+    <string name="rules">Reglas</string>
+    <string name="about">Acerca de</string>
+    <string name="game_over">Juego terminado</string>
+    <string name="game_won">Juego ganado</string>
 </resources>

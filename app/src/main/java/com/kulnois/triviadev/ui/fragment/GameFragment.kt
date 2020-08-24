@@ -58,8 +58,7 @@ class GameFragment: Fragment() {
                         setQuestions()
                         binding.invalidateAll()
                     } else {
-                        //                         view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment(numberQuestions, questionIndex))
-                        view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment())
+                        view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment(numberQuestions, questionIndex))
                     }
                 } else {
                     view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameOverFragment())
